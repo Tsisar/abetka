@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Preference -->
+    <string-array name="pref_orientation_entries">
+        <item>автоматическая</item>
+        <item>портретная</item>
+        <item>альбомная</item>
+    </string-array>
+
+    <string-array name="pref_orientation_entry_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="pref_language_entries">
+        <item>язык системи</item>
+        <item>українська</item>
+        <item>русский</item>
+        <item>english</item>
+    </string-array>
+
+    <string-array name="pref_language_entry_values">
+        <item>default</item>
+        <item>uk</item>
+        <item>ru</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="pref_sound_voice_entries">
+        <item>default</item>
+    </string-array>
+
+    <string-array name="pref_sound_voice_entry_values">
+        <item>default</item>
+    </string-array>
+
+    <string-array name="pref_sound_speak_entries">
+        <item>буквы</item>
+        <item>звуки</item>
+        <item>иллюстрации</item>
+    </string-array>
+
+    <string-array name="pref_sound_speak_entry_values">
+        <item>letter</item>
+        <item>noise</item>
+        <item>illustrations</item>
+    </string-array>
+
+    <string-array name="pref_statistics_sorting_entries">
+        <item>по ответах</item>
+        <item>по звездочках</item>
+        <item>по дате</item>
+    </string-array>
+
+    <string-array name="pref_statistics_sorting_entry_values">
+        <item>answer</item>
+        <item>stars</item>
+        <item>date</item>
+    </string-array>
+
+    <string-array name="pref_statistics_number_entries">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="pref_statistics_number_entry_values">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+</resources>

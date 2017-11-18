@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Alphabet</string>
+    <string name="desc">Description</string>
+    <string name="version">version: %1$s</string>
+    <string name="clear">Clear</string>
+
+    <!-- Dialog -->
+    <string name="dialog_exit_msg">You want to quit?</string>
+    <string name="dialog_exit">Quit</string>
+    <string name="dialog_exit_title">Quit</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_null_row">No entries</string>
+    <string name="dialog_restart_msg">To apply these settings you must restart application.</string>
+    <string name="dialog_restart">Restart</string>
+    <string name="dialog_restart_title">Restart</string>
+
+    <string name="about">
+        \n\nWatercolor alphabet, help your baby easily learn the letters of English, Ukrainian, and Russian alphabet.
+        \n\nIn this program there is no advertising to as not to distract your kids from learning.
+        \n\nMy son helped me with ideas, and the first test. First Alphabet was created for him.
+        \n\nAlexander Bresitskiy created for Alphabet over a hundred illustrations on paper using watercolors.
+        \n\nSound was recorded in recording studio \"AURAMUSIC\", Kamenets-Podolsky.</string>
+
+    <string name="copyright">
+        \n
+        \n© Pavel Tsisar.
+        \nabetka.tsisar@gmail.com</string>
+
+    <!-- Preference -->
+    <!-- General -->
+    <string name="pref_title_general">General</string>
+
+    <!-- Title general -->
+    <string name="pref_title_orientation">Orientation</string>
+    <string name="pref_title_language">Language</string>
+    <string name="pref_title_hint">Hints</string>
+    <string name="pref_title_buttons">Buttons</string>
+
+    <!-- Summary general -->
+    <string name="pref_summary_on_hint">to use in the game</string>
+    <string name="pref_summary_off_hint">are not used in the game</string>
+    <string name="pref_summary_on_buttons">use for turn</string>
+    <string name="pref_summary_off_buttons">are not used for turn</string>
+
+    <!-- Sound -->
+    <string name="pref_title_sound">Sound</string>
+
+    <!-- Title sound -->
+    <string name="pref_title_sound_state">Sound</string>
+    <string name="pref_title_sound_voice">Voice</string>
+    <string name="pref_title_sound_speak">Speak</string>
+
+    <!-- Summary sound -->
+    <string name="pref_summary_on_sound_state">enabled</string>
+    <string name="pref_summary_off_sound_state">disabled</string>
+
+    <!-- Info -->
+    <string name="pref_title_info">Information</string>
+
+    <!-- Title info -->
+    <string name="pref_title_info_statistics">Statistics</string>
+    <string name="pref_title_info_statistics_sorting">Sorting</string>
+    <string name="pref_title_info_statistics_number">Number</string>
+    <string name="pref_title_info_about">About</string>
+
+    <!-- Summary info -->
+    <string name="pref_summary_info_best_result_answers">%1$d answers, %2$d stars, %3$s</string>
+    <string name="pref_summary_info_best_result_stars">%2$d stars, %1$d answers, %3$s</string>
+    <string name="pref_summary_info_best_result_date">%3$s, %1$d answers, %2$d stars</string>
+
+    <string name="pause">Pause</string>
+    <string name="level_completed">Level complete!</string>
+
+    <string name="coffee">Buy</string>
+    <string name="are_you_like">Do you like this app?\nBuy me a coffee:</string>
+
+    <string name="num_records">of entries %s</string>
+    <string name="pause_message">Please click for resume.</string>
+    <string name="level_completed_message">Please click for play again.</string>
+</resources>

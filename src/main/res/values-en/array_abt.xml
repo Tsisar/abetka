@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="letters_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <!-- ############################################################### -->
+
+    <string-array name="letters_small_array">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+    </string-array>
+
+    <!-- ############################################################### -->
+
+    <array name="letters_color_array">
+        <item>#ff0000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#ff0000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#ff0000</item>
+        <item>#ff0000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#ff0000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#ff0000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#ff0000</item>
+        <item>#000000</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="lite_mipmap_id_array">
+        <item>@mipmap/lite_ab_099</item>
+        <item>@mipmap/lite_ab_075</item>
+        <item>@mipmap/lite_ab_058</item>
+        <item>@mipmap/lite_ab_085</item>
+        <item>@mipmap/lite_ab_040</item>
+        <item>@mipmap/lite_ab_021</item>
+        <item>@mipmap/lite_ab_009</item>
+        <item>@mipmap/lite_ab_013</item>
+        <item>@mipmap/lite_ab_017</item>
+        <item>@mipmap/lite_ab_111</item>
+        <item>@mipmap/lite_ab_118</item>
+        <item>@mipmap/lite_ab_051</item>
+        <item>@mipmap/lite_ab_043</item>
+        <item>@mipmap/lite_ab_130</item>
+        <item>@mipmap/lite_ab_112</item>
+        <item>@mipmap/lite_ab_070</item>
+        <item>@mipmap/lite_ab_120</item>
+        <item>@mipmap/lite_ab_008</item>
+        <item>@mipmap/lite_ab_018</item>
+        <item>@mipmap/lite_ab_023</item>
+        <item>@mipmap/lite_ab_117</item>
+        <item>@mipmap/lite_ab_053</item>
+        <item>@mipmap/lite_ab_057</item>
+        <item>@mipmap/lite_ab_127</item>
+        <item>@mipmap/lite_ab_041</item>
+        <item>@mipmap/lite_ab_010</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="illustration_array">
+        <item>@array/illustration_array_000</item>
+        <item>@array/illustration_array_001</item>
+        <item>@array/illustration_array_002</item>
+        <item>@array/illustration_array_003</item>
+        <item>@array/illustration_array_004</item>
+        <item>@array/illustration_array_005</item>
+        <item>@array/illustration_array_006</item>
+        <item>@array/illustration_array_007</item>
+        <item>@array/illustration_array_008</item>
+        <item>@array/illustration_array_009</item>
+        <item>@array/illustration_array_010</item>
+        <item>@array/illustration_array_011</item>
+        <item>@array/illustration_array_012</item>
+        <item>@array/illustration_array_013</item>
+        <item>@array/illustration_array_014</item>
+        <item>@array/illustration_array_015</item>
+        <item>@array/illustration_array_016</item>
+        <item>@array/illustration_array_017</item>
+        <item>@array/illustration_array_018</item>
+        <item>@array/illustration_array_019</item>
+        <item>@array/illustration_array_020</item>
+        <item>@array/illustration_array_021</item>
+        <item>@array/illustration_array_022</item>
+        <item>@array/illustration_array_023</item>
+        <item>@array/illustration_array_024</item>
+        <item>@array/illustration_array_025</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="illustration_array_000">
+        <item>@mipmap/ab_099</item>
+        <item>@mipmap/ab_033</item>
+        <item>@mipmap/ab_034</item>
+    </array>
+
+    <array name="illustration_array_001">
+        <item>@mipmap/ab_087</item>
+        <item>@mipmap/ab_105</item>
+        <item>@mipmap/ab_068</item>
+        <item>@mipmap/ab_075</item>
+        <item>@mipmap/ab_024</item>
+        <item>@mipmap/ab_065</item>
+        <item>@mipmap/ab_026</item>
+        <item>@mipmap/ab_030</item>
+        <item>@mipmap/ab_067</item>
+        <item>@mipmap/ab_100</item>
+        <item>@mipmap/ab_005</item>
+    </array>
+
+    <array name="illustration_array_002">
+        <item>@mipmap/ab_058</item>
+        <item>@mipmap/ab_027</item>
+        <item>@mipmap/ab_092</item>
+        <item>@mipmap/ab_104</item>
+        <item>@mipmap/ab_062</item>
+        <item>@mipmap/ab_029</item>
+        <item>@mipmap/ab_019</item>
+        <item>@mipmap/ab_061</item>
+    </array>
+
+    <array name="illustration_array_003">
+        <item>@mipmap/ab_085</item>
+        <item>@mipmap/ab_072</item>
+        <item>@mipmap/ab_002</item>
+    </array>
+
+    <array name="illustration_array_004">
+        <item>@mipmap/ab_040</item>
+        <item>@mipmap/ab_066</item>
+        <item>@mipmap/ab_073</item>
+        <item>@mipmap/ab_007</item>
+    </array>
+
+    <array name="illustration_array_005">
+        <item>@mipmap/ab_045</item>
+        <item>@mipmap/ab_021</item>
+        <item>@mipmap/ab_025</item>
+        <item>@mipmap/ab_102</item>
+        <item>@mipmap/ab_042</item>
+    </array>
+
+    <array name="illustration_array_006">
+        <item>@mipmap/ab_009</item>
+        <item>@mipmap/ab_052</item>
+        <item>@mipmap/ab_094</item>
+    </array>
+
+    <array name="illustration_array_007">
+        <item>@mipmap/ab_091</item>
+        <item>@mipmap/ab_013</item>
+        <item>@mipmap/ab_103</item>
+        <item>@mipmap/ab_035</item>
+    </array>
+
+    <array name="illustration_array_008">
+        <item>@mipmap/ab_017</item>
+        <item>@mipmap/ab_078</item>
+        <item>@mipmap/ab_047</item>
+    </array>
+
+    <array name="illustration_array_009">
+        <item>@mipmap/ab_111</item>
+        <item>@mipmap/ab_124</item>
+        <item>@mipmap/ab_088</item>
+    </array>
+
+    <array name="illustration_array_010">
+        <item>@mipmap/ab_118</item>
+        <item>@mipmap/ab_028</item>
+        <item>@mipmap/ab_119</item>
+    </array>
+
+    <array name="illustration_array_011">
+        <item>@mipmap/ab_051</item>
+        <item>@mipmap/ab_122</item>
+        <item>@mipmap/ab_049</item>
+    </array>
+
+    <array name="illustration_array_012">
+        <item>@mipmap/ab_043</item>
+        <item>@mipmap/ab_123</item>
+        <item>@mipmap/ab_004</item>
+    </array>
+
+    <array name="illustration_array_013">
+        <item>@mipmap/ab_130</item>
+        <item>@mipmap/ab_114</item>
+        <item>@mipmap/ab_128</item>
+    </array>
+
+    <array name="illustration_array_014">
+        <item>@mipmap/ab_112</item>
+        <item>@mipmap/ab_060</item>
+        <item>@mipmap/ab_109</item>
+    </array>
+
+    <array name="illustration_array_015">
+        <item>@mipmap/ab_070</item>
+        <item>@mipmap/ab_089</item>
+        <item>@mipmap/ab_063</item>
+        <item>@mipmap/ab_016</item>
+    </array>
+
+    <array name="illustration_array_016">
+        <item>@mipmap/ab_120</item>
+        <item>@mipmap/ab_125</item>
+        <item>@mipmap/ab_126</item>
+    </array>
+
+    <array name="illustration_array_017">
+        <item>@mipmap/ab_008</item>
+        <item>@mipmap/ab_059</item>
+    </array>
+
+    <array name="illustration_array_018">
+        <item>@mipmap/ab_018</item>
+        <item>@mipmap/ab_001</item>
+        <item>@mipmap/ab_096</item>
+        <item>@mipmap/ab_071</item>
+        <item>@mipmap/ab_095</item>
+    </array>
+
+    <array name="illustration_array_019">
+        <item>@mipmap/ab_084</item>
+        <item>@mipmap/ab_023</item>
+        <item>@mipmap/ab_056</item>
+        <item>@mipmap/ab_006</item>
+        <item>@mipmap/ab_012</item>
+    </array>
+
+    <array name="illustration_array_020">
+        <item>@mipmap/ab_117</item>
+        <item>@mipmap/ab_116</item>
+        <item>@mipmap/ab_090</item>
+    </array>
+
+    <array name="illustration_array_021">
+        <item>@mipmap/ab_053</item>
+        <item>@mipmap/ab_129</item>
+        <item>@mipmap/ab_113</item>
+    </array>
+
+    <array name="illustration_array_022">
+        <item>@mipmap/ab_057</item>
+        <item>@mipmap/ab_048</item>
+        <item>@mipmap/ab_081</item>
+    </array>
+
+    <array name="illustration_array_023">
+        <item>@mipmap/ab_127</item>
+        <item>@mipmap/ab_121</item>
+    </array>
+
+    <array name="illustration_array_024">
+        <item>@mipmap/ab_014</item>
+        <item>@mipmap/ab_032</item>
+        <item>@mipmap/ab_080</item>
+    </array>
+
+    <array name="illustration_array_025">
+        <item>@mipmap/ab_010</item>
+        <item>@mipmap/ab_115</item>
+        <item>@mipmap/ab_110</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <string-array name="name_array">
+        <item>@array/name_array_000</item>
+        <item>@array/name_array_001</item>
+        <item>@array/name_array_002</item>
+        <item>@array/name_array_003</item>
+        <item>@array/name_array_004</item>
+        <item>@array/name_array_005</item>
+        <item>@array/name_array_006</item>
+        <item>@array/name_array_007</item>
+        <item>@array/name_array_008</item>
+        <item>@array/name_array_009</item>
+        <item>@array/name_array_010</item>
+        <item>@array/name_array_011</item>
+        <item>@array/name_array_012</item>
+        <item>@array/name_array_013</item>
+        <item>@array/name_array_014</item>
+        <item>@array/name_array_015</item>
+        <item>@array/name_array_016</item>
+        <item>@array/name_array_017</item>
+        <item>@array/name_array_018</item>
+        <item>@array/name_array_019</item>
+        <item>@array/name_array_020</item>
+        <item>@array/name_array_021</item>
+        <item>@array/name_array_022</item>
+        <item>@array/name_array_023</item>
+        <item>@array/name_array_024</item>
+        <item>@array/name_array_025</item>
+    </string-array>
+
+    <!-- ############################################################### -->
+
+    <string-array name="name_array_000">
+        <item>nchor</item>
+        <item>pple</item>
+        <item>pricot</item>
+    </string-array>
+
+    <string-array name="name_array_001">
+        <item>ackpack</item>
+        <item>alloons</item>
+        <item>anana</item>
+        <item>eetle</item>
+        <item>oa</item>
+        <item>rambling</item>
+        <item>read</item>
+        <item>rush</item>
+        <item>us</item>
+        <item>utterfly</item>
+        <item>utton</item>
+    </string-array>
+
+    <string-array name="name_array_002">
+        <item>amera</item>
+        <item>andy</item>
+        <item>hameleon</item>
+        <item>hicken</item>
+        <item>hocolate</item>
+        <item>one</item>
+        <item>ucumber</item>
+        <item>up</item>
+    </string-array>
+
+    <string-array name="name_array_003">
+        <item>eer</item>
+        <item>inosaur</item>
+        <item>rum</item>
+    </string-array>
+
+    <string-array name="name_array_004">
+        <item>clair</item>
+        <item>gg</item>
+        <item>ncyclopaedia</item>
+        <item>xcavator</item>
+    </string-array>
+
+    <string-array name="name_array_005">
+        <item>ig</item>
+        <item>ish</item>
+        <item>lamingo</item>
+        <item>lower</item>
+        <item>rog</item>
+    </string-array>
+
+    <string-array name="name_array_006">
+        <item>iraffe</item>
+        <item>lasses</item>
+        <item>ull</item>
+    </string-array>
+
+    <string-array name="name_array_007">
+        <item>air dryer</item>
+        <item>edgehog</item>
+        <item>eron</item>
+        <item>ouse</item>
+    </string-array>
+
+    <string-array name="name_array_008">
+        <item>ce</item>
+        <item>gloo</item>
+        <item>odine</item>
+    </string-array>
+
+    <string-array name="name_array_009">
+        <item>am</item>
+        <item>ellyfish</item>
+        <item>uice</item>
+    </string-array>
+
+    <string-array name="name_array_010">
+        <item>angaroo</item>
+        <item>ettle</item>
+        <item>ey</item>
+    </string-array>
+
+    <string-array name="name_array_011">
+        <item>aptop</item>
+        <item>emon</item>
+        <item>ion</item>
+    </string-array>
+
+    <string-array name="name_array_012">
+        <item>arshmallow</item>
+        <item>onkey</item>
+        <item>ushroom</item>
+    </string-array>
+
+    <string-array name="name_array_013">
+        <item>ail</item>
+        <item>est</item>
+        <item>et</item>
+    </string-array>
+
+    <string-array name="name_array_014">
+        <item>ctopus</item>
+        <item>nion</item>
+        <item>range</item>
+    </string-array>
+
+    <string-array name="name_array_015">
+        <item>ear</item>
+        <item>hone</item>
+        <item>ike</item>
+        <item>lane</item>
+    </string-array>
+
+    <string-array name="name_array_016">
+        <item>ueen</item>
+        <item>uill</item>
+        <item>uilt</item>
+    </string-array>
+
+    <string-array name="name_array_017">
+        <item>accoon</item>
+        <item>efrigerator</item>
+    </string-array>
+
+    <string-array name="name_array_018">
+        <item>cissors</item>
+        <item>hark</item>
+        <item>hield</item>
+        <item>leigh</item>
+        <item>ock</item>
+    </string-array>
+
+    <string-array name="name_array_019">
+        <item>hreads</item>
+        <item>iger</item>
+        <item>ractor</item>
+        <item>ree</item>
+        <item>urkey</item>
+    </string-array>
+
+    <string-array name="name_array_020">
+        <item>mbrella</item>
+        <item>nicorn</item>
+        <item>rn</item>
+    </string-array>
+
+    <string-array name="name_array_021">
+        <item>acuum Cleaner</item>
+        <item>iolin</item>
+        <item>olcano</item>
+    </string-array>
+
+    <string-array name="name_array_022">
+        <item>ashbasin</item>
+        <item>atermelon</item>
+        <item>hale</item>
+    </string-array>
+
+    <string-array name="name_array_023">
+        <item>-Ray</item>
+        <item>ylophone</item>
+    </string-array>
+
+    <string-array name="name_array_024">
+        <item>ogurt</item>
+        <item>urta</item>
+        <item>ogi</item>
+    </string-array>
+
+    <string-array name="name_array_025">
+        <item>ebra</item>
+        <item>eppelin</item>
+        <item>ipper</item>
+    </string-array>
+
+    <!-- ############################################################### -->
+
+    <array name="sound_letter_id_array">
+        <item>@raw/l_001</item>
+        <item>@raw/l_002</item>
+        <item>@raw/l_003</item>
+        <item>@raw/l_004</item>
+        <item>@raw/l_005</item>
+        <item>@raw/l_006</item>
+        <item>@raw/l_007</item>
+        <item>@raw/l_008</item>
+        <item>@raw/l_009</item>
+        <item>@raw/l_010</item>
+        <item>@raw/l_011</item>
+        <item>@raw/l_012</item>
+        <item>@raw/l_013</item>
+        <item>@raw/l_014</item>
+        <item>@raw/l_015</item>
+        <item>@raw/l_016</item>
+        <item>@raw/l_017</item>
+        <item>@raw/l_018</item>
+        <item>@raw/l_019</item>
+        <item>@raw/l_020</item>
+        <item>@raw/l_021</item>
+        <item>@raw/l_022</item>
+        <item>@raw/l_023</item>
+        <item>@raw/l_024</item>
+        <item>@raw/l_025</item>
+        <item>@raw/l_026</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="sound_noise_id_array">
+        <item>@raw/l_001</item>
+        <item>@raw/l_002</item>
+        <item>@raw/l_003</item>
+        <item>@raw/l_004</item>
+        <item>@raw/l_005</item>
+        <item>@raw/l_006</item>
+        <item>@raw/l_007</item>
+        <item>@raw/l_008</item>
+        <item>@raw/l_009</item>
+        <item>@raw/l_010</item>
+        <item>@raw/l_011</item>
+        <item>@raw/l_012</item>
+        <item>@raw/l_013</item>
+        <item>@raw/l_014</item>
+        <item>@raw/l_015</item>
+        <item>@raw/l_016</item>
+        <item>@raw/l_017</item>
+        <item>@raw/l_018</item>
+        <item>@raw/l_019</item>
+        <item>@raw/l_020</item>
+        <item>@raw/l_021</item>
+        <item>@raw/l_022</item>
+        <item>@raw/l_023</item>
+        <item>@raw/l_024</item>
+        <item>@raw/l_025</item>
+        <item>@raw/l_026</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="sound_name_array">
+        <item>@array/sound_name_array_000</item>
+        <item>@array/sound_name_array_001</item>
+        <item>@array/sound_name_array_002</item>
+        <item>@array/sound_name_array_003</item>
+        <item>@array/sound_name_array_004</item>
+        <item>@array/sound_name_array_005</item>
+        <item>@array/sound_name_array_006</item>
+        <item>@array/sound_name_array_007</item>
+        <item>@array/sound_name_array_008</item>
+        <item>@array/sound_name_array_009</item>
+        <item>@array/sound_name_array_010</item>
+        <item>@array/sound_name_array_011</item>
+        <item>@array/sound_name_array_012</item>
+        <item>@array/sound_name_array_013</item>
+        <item>@array/sound_name_array_014</item>
+        <item>@array/sound_name_array_015</item>
+        <item>@array/sound_name_array_016</item>
+        <item>@array/sound_name_array_017</item>
+        <item>@array/sound_name_array_018</item>
+        <item>@array/sound_name_array_019</item>
+        <item>@array/sound_name_array_020</item>
+        <item>@array/sound_name_array_021</item>
+        <item>@array/sound_name_array_022</item>
+        <item>@array/sound_name_array_023</item>
+        <item>@array/sound_name_array_024</item>
+        <item>@array/sound_name_array_025</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="sound_name_array_000">
+        <item>@raw/i_099</item>
+        <item>@raw/i_033</item>
+        <item>@raw/i_034</item>
+    </array>
+
+    <array name="sound_name_array_001">
+        <item>@raw/i_087</item>
+        <item>@raw/i_105</item>
+        <item>@raw/i_068</item>
+        <item>@raw/i_075</item>
+        <item>@raw/i_024</item>
+        <item>@raw/i_065</item>
+        <item>@raw/i_026</item>
+        <item>@raw/i_030</item>
+        <item>@raw/i_067</item>
+        <item>@raw/i_100</item>
+        <item>@raw/i_005</item>
+    </array>
+
+    <array name="sound_name_array_002">
+        <item>@raw/i_058</item>
+        <item>@raw/i_027</item>
+        <item>@raw/i_092</item>
+        <item>@raw/i_104</item>
+        <item>@raw/i_062</item>
+        <item>@raw/i_029</item>
+        <item>@raw/i_019</item>
+        <item>@raw/i_061</item>
+    </array>
+
+    <array name="sound_name_array_003">
+        <item>@raw/i_085</item>
+        <item>@raw/i_072</item>
+        <item>@raw/i_002</item>
+    </array>
+
+    <array name="sound_name_array_004">
+        <item>@raw/i_040</item>
+        <item>@raw/i_066</item>
+        <item>@raw/i_073</item>
+        <item>@raw/i_007</item>
+    </array>
+
+    <array name="sound_name_array_005">
+        <item>@raw/i_045</item>
+        <item>@raw/i_021</item>
+        <item>@raw/i_025</item>
+        <item>@raw/i_102</item>
+        <item>@raw/i_042</item>
+    </array>
+
+    <array name="sound_name_array_006">
+        <item>@raw/i_009</item>
+        <item>@raw/i_052</item>
+        <item>@raw/i_094</item>
+    </array>
+
+    <array name="sound_name_array_007">
+        <item>@raw/i_091</item>
+        <item>@raw/i_013</item>
+        <item>@raw/i_103</item>
+        <item>@raw/i_035</item>
+    </array>
+
+    <array name="sound_name_array_008">
+        <item>@raw/i_017</item>
+        <item>@raw/i_078</item>
+        <item>@raw/i_047</item>
+    </array>
+
+    <array name="sound_name_array_009">
+        <item>@raw/i_111</item>
+        <item>@raw/i_124</item>
+        <item>@raw/i_088</item>
+    </array>
+
+    <array name="sound_name_array_010">
+        <item>@raw/i_118</item>
+        <item>@raw/i_028</item>
+        <item>@raw/i_119</item>
+    </array>
+
+    <array name="sound_name_array_011">
+        <item>@raw/i_051</item>
+        <item>@raw/i_122</item>
+        <item>@raw/i_049</item>
+    </array>
+
+    <array name="sound_name_array_012">
+        <item>@raw/i_043</item>
+        <item>@raw/i_123</item>
+        <item>@raw/i_004</item>
+    </array>
+
+    <array name="sound_name_array_013">
+        <item>@raw/i_130</item>
+        <item>@raw/i_114</item>
+        <item>@raw/i_128</item>
+    </array>
+
+    <array name="sound_name_array_014">
+        <item>@raw/i_112</item>
+        <item>@raw/i_060</item>
+        <item>@raw/i_109</item>
+    </array>
+
+    <array name="sound_name_array_015">
+        <item>@raw/i_070</item>
+        <item>@raw/i_089</item>
+        <item>@raw/i_063</item>
+        <item>@raw/i_016</item>
+    </array>
+
+    <array name="sound_name_array_016">
+        <item>@raw/i_120</item>
+        <item>@raw/i_125</item>
+        <item>@raw/i_126</item>
+    </array>
+
+    <array name="sound_name_array_017">
+        <item>@raw/i_008</item>
+        <item>@raw/i_059</item>
+    </array>
+
+    <array name="sound_name_array_018">
+        <item>@raw/i_018</item>
+        <item>@raw/i_001</item>
+        <item>@raw/i_096</item>
+        <item>@raw/i_071</item>
+        <item>@raw/i_095</item>
+    </array>
+
+    <array name="sound_name_array_019">
+        <item>@raw/i_084</item>
+        <item>@raw/i_023</item>
+        <item>@raw/i_056</item>
+        <item>@raw/i_006</item>
+        <item>@raw/i_012</item>
+    </array>
+
+    <array name="sound_name_array_020">
+        <item>@raw/i_117</item>
+        <item>@raw/i_116</item>
+        <item>@raw/i_090</item>
+    </array>
+
+    <array name="sound_name_array_021">
+        <item>@raw/i_053</item>
+        <item>@raw/i_129</item>
+        <item>@raw/i_113</item>
+    </array>
+
+    <array name="sound_name_array_022">
+        <item>@raw/i_057</item>
+        <item>@raw/i_048</item>
+        <item>@raw/i_081</item>
+    </array>
+
+    <array name="sound_name_array_023">
+        <item>@raw/i_127</item>
+        <item>@raw/i_121</item>
+    </array>
+
+    <array name="sound_name_array_024">
+        <item>@raw/i_014</item>
+        <item>@raw/i_032</item>
+        <item>@raw/i_080</item>
+    </array>
+
+    <array name="sound_name_array_025">
+        <item>@raw/i_010</item>
+        <item>@raw/i_115</item>
+        <item>@raw/i_110</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="game_raw_ok_array">
+        <item>@raw/ok_001</item>
+        <item>@raw/ok_002</item>
+        <item>@raw/ok_003</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="game_raw_no_array">
+        <item>@raw/no_001</item>
+        <item>@raw/no_002</item>
+    </array>
+
+</resources>
+

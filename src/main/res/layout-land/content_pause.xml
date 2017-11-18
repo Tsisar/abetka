@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_pause"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClickReturn">
+
+    <Button
+        android:text="@string/dialog_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickExit"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/pause_exit_button" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_above="@+id/pause_exit_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/game_ok"
+            android:id="@+id/pause_ok_imageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ua.tsisar.abetka.view.StrokeTextView
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pause_answer_label"
+            android:textColor="@color/colorWhite"
+            android:textSize="80sp"
+            app:strokeWidth="5sp"
+            app:strokeColor="@color/colorGreen"
+            android:layout_alignBottom="@+id/pause_ok_imageView"
+            android:layout_alignLeft="@+id/pause_ok_imageView"
+            android:layout_alignStart="@+id/pause_ok_imageView" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_above="@+id/pause_answer_label"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/game_star_1"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/pause_star1_imageView" />
+
+            <ua.tsisar.abetka.view.StrokeTextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pause_star_label"
+                android:textColor="@color/colorWhite"
+                android:textSize="48sp"
+                app:strokeWidth="5sp"
+                app:strokeColor="@color/colorBlackStar"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/game_star_1"
+                android:id="@+id/pause_star2_imageView"
+                android:layout_below="@+id/pause_star1_imageView"
+                android:layout_toRightOf="@+id/pause_star1_imageView"
+                android:layout_toEndOf="@+id/pause_star1_imageView" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/game_star_1"
+                android:id="@+id/pause_star3_imageView"
+                android:layout_below="@+id/pause_star1_imageView"
+                android:layout_toLeftOf="@+id/pause_star1_imageView"
+                android:layout_toStartOf="@+id/pause_star1_imageView" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/pause_message_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/pause_title_textView"
+        android:text="@string/pause_message"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/pause_title_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/pause"
+        android:textColor="@color/colorBlue"
+        android:textSize="32sp" />
+
+</RelativeLayout>

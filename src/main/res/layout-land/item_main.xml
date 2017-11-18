@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/illustration_image_view"
+        android:contentDescription="@string/desc"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <ua.tsisar.abetka.view.StrokeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_letter_text_view"
+            android:textSize="72sp"
+            app:strokeWidth="4sp"
+            app:strokeColor="@color/colorWhite"/>
+
+        <ua.tsisar.abetka.view.StrokeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text_view"
+            android:textSize="48sp"
+            android:textIsSelectable="false"
+            android:textColor="#000000"
+            app:strokeWidth="4sp"
+            app:strokeColor="@color/colorWhite"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sound_child_letter_id_array">
+        <item>@raw/vl_001</item>
+        <item>@raw/vl_002</item>
+        <item>@raw/vl_003</item>
+        <item>@raw/vl_004</item>
+        <item>@raw/vl_005</item>
+        <item>@raw/vl_006</item>
+        <item>@raw/vl_007</item>
+        <item>@raw/vl_008</item>
+        <item>@raw/vl_009</item>
+        <item>@raw/vl_010</item>
+        <item>@raw/vl_011</item>
+        <item>@raw/vl_012</item>
+        <item>@raw/vl_013</item>
+        <item>@raw/vl_014</item>
+        <item>@raw/vl_015</item>
+        <item>@raw/vl_016</item>
+        <item>@raw/vl_017</item>
+        <item>@raw/vl_018</item>
+        <item>@raw/vl_019</item>
+        <item>@raw/vl_020</item>
+        <item>@raw/vl_021</item>
+        <item>@raw/vl_022</item>
+        <item>@raw/vl_023</item>
+        <item>@raw/vl_024</item>
+        <item>@raw/vl_025</item>
+        <item>@raw/vl_026</item>
+        <item>@raw/vl_027</item>
+        <item>@raw/vl_028</item>
+        <item>@raw/vl_029</item>
+        <item>@raw/vl_030</item>
+        <item>@raw/vl_031</item>
+        <item>@raw/vl_032</item>
+        <item>@raw/vl_033</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="sound_child_noise_id_array">
+        <item>@raw/vl_001</item>
+        <item>@raw/vn_002</item>
+        <item>@raw/vn_003</item>
+        <item>@raw/vn_004</item>
+        <item>@raw/vn_005</item>
+        <item>@raw/vn_006</item>
+        <item>@raw/vn_007</item>
+        <item>@raw/vl_008</item>
+        <item>@raw/vn_009</item>
+        <item>@raw/vn_010</item>
+        <item>@raw/vl_011</item>
+        <item>@raw/vl_012</item>
+        <item>@raw/vl_013</item>
+        <item>@raw/vn_014</item>
+        <item>@raw/vn_015</item>
+        <item>@raw/vn_016</item>
+        <item>@raw/vn_017</item>
+        <item>@raw/vn_018</item>
+        <item>@raw/vl_019</item>
+        <item>@raw/vn_020</item>
+        <item>@raw/vn_021</item>
+        <item>@raw/vn_022</item>
+        <item>@raw/vn_023</item>
+        <item>@raw/vl_024</item>
+        <item>@raw/vn_025</item>
+        <item>@raw/vn_026</item>
+        <item>@raw/vn_027</item>
+        <item>@raw/vn_028</item>
+        <item>@raw/vn_029</item>
+        <item>@raw/vn_030</item>
+        <item>@raw/vl_031</item>
+        <item>@raw/vl_032</item>
+        <item>@raw/vl_033</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="sound_child_name_array">
+        <item>@array/sound_child_name_array_000</item>
+        <item>@array/sound_child_name_array_001</item>
+        <item>@array/sound_child_name_array_002</item>
+        <item>@array/sound_child_name_array_003</item>
+        <item>@array/sound_child_name_array_004</item>
+        <item>@array/sound_child_name_array_005</item>
+        <item>@array/sound_child_name_array_006</item>
+        <item>@array/sound_child_name_array_007</item>
+        <item>@array/sound_child_name_array_008</item>
+        <item>@array/sound_child_name_array_009</item>
+        <item>@array/sound_child_name_array_010</item>
+        <item>@array/sound_child_name_array_011</item>
+        <item>@array/sound_child_name_array_012</item>
+        <item>@array/sound_child_name_array_013</item>
+        <item>@array/sound_child_name_array_014</item>
+        <item>@array/sound_child_name_array_015</item>
+        <item>@array/sound_child_name_array_016</item>
+        <item>@array/sound_child_name_array_017</item>
+        <item>@array/sound_child_name_array_018</item>
+        <item>@array/sound_child_name_array_019</item>
+        <item>@array/sound_child_name_array_020</item>
+        <item>@array/sound_child_name_array_021</item>
+        <item>@array/sound_child_name_array_022</item>
+        <item>@array/sound_child_name_array_023</item>
+        <item>@array/sound_child_name_array_024</item>
+        <item>@array/sound_child_name_array_025</item>
+        <item>@array/sound_child_name_array_026</item>
+        <item>@array/sound_child_name_array_027</item>
+        <item>@array/sound_child_name_array_028</item>
+        <item>@array/sound_child_name_array_029</item>
+        <item>@array/sound_child_name_array_030</item>
+        <item>@array/sound_child_name_array_031</item>
+        <item>@array/sound_child_name_array_032</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="sound_child_name_array_000">
+        <item>@raw/vi_034</item>
+        <item>@raw/vi_067</item>
+        <item>@raw/vi_001</item>
+        <item>@raw/vi_109</item>
+    </array>
+
+    <array name="sound_child_name_array_001">
+        <item>@raw/vi_068</item>
+        <item>@raw/vi_002</item>
+        <item>@raw/vi_110</item>
+        <item>@raw/vi_035</item>
+    </array>
+
+    <array name="sound_child_name_array_002">
+        <item>@raw/vi_111</item>
+        <item>@raw/vi_112</item>
+        <item>@raw/vi_113</item>
+    </array>
+
+    <array name="sound_child_name_array_003">
+        <item>@raw/vi_114</item>
+        <item>@raw/vi_004</item>
+        <item>@raw/vi_070</item>
+    </array>
+
+    <array name="sound_child_name_array_004">
+        <item>@raw/vi_038</item>
+        <item>@raw/vi_071</item>
+        <item>@raw/vi_005</item>
+    </array>
+
+    <array name="sound_child_name_array_005">
+        <item>@raw/vi_006</item>
+        <item>@raw/vi_115</item>
+        <item>@raw/vi_072</item>
+    </array>
+
+    <array name="sound_child_name_array_006">
+        <item>@raw/vi_040</item>
+        <item>@raw/vi_007</item>
+        <item>@raw/vi_073</item>
+    </array>
+
+    <array name="sound_child_name_array_007">
+        <item>@raw/vi_041</item>
+        <item>@raw/vi_116</item>
+        <item>@raw/vi_008</item>
+    </array>
+
+    <array name="sound_child_name_array_008">
+        <item>@raw/vi_042</item>
+        <item>@raw/vi_009</item>
+        <item>@raw/vi_075</item>
+    </array>
+
+    <array name="sound_child_name_array_009">
+        <item>@raw/vi_010</item>
+        <item>@raw/vi_043</item>
+    </array>
+
+    <array name="sound_child_name_array_010">
+        <item>@raw/vno_letter</item>
+    </array>
+
+    <array name="sound_child_name_array_011">
+        <item>@raw/vi_078</item>
+        <item>@raw/vi_012</item>
+        <item>@raw/vi_045</item>
+    </array>
+
+    <array name="sound_child_name_array_012">
+        <item>@raw/vi_013</item>
+    </array>
+
+    <array name="sound_child_name_array_013">
+        <item>@raw/vi_014</item>
+        <item>@raw/vi_047</item>
+        <item>@raw/vi_080</item>
+    </array>
+
+    <array name="sound_child_name_array_014">
+        <item>@raw/vi_048</item>
+        <item>@raw/vi_102</item>
+        <item>@raw/vi_118</item>
+        <item>@raw/vi_119</item>
+        <item>@raw/vi_120</item>
+        <item>@raw/vi_121</item>
+        <item>@raw/vi_105</item>
+        <item>@raw/vi_104</item>
+    </array>
+
+    <array name="sound_child_name_array_015">
+        <item>@raw/vi_049</item>
+        <item>@raw/vi_122</item>
+        <item>@raw/vi_016</item>
+    </array>
+
+    <array name="sound_child_name_array_016">
+        <item>@raw/vi_123</item>
+        <item>@raw/vi_124</item>
+        <item>@raw/vi_100</item>
+        <item>@raw/vi_017</item>
+    </array>
+
+    <array name="sound_child_name_array_017">
+        <item>@raw/vi_084</item>
+        <item>@raw/vi_018</item>
+        <item>@raw/vi_051</item>
+    </array>
+
+    <array name="sound_child_name_array_018">
+        <item>@raw/vi_019</item>
+        <item>@raw/vi_052</item>
+        <item>@raw/vi_085</item>
+    </array>
+
+    <array name="sound_child_name_array_019">
+        <item>@raw/vi_125</item>
+        <item>@raw/vi_053</item>
+        <item>@raw/vi_126</item>
+    </array>
+
+    <array name="sound_child_name_array_020">
+        <item>@raw/vi_127</item>
+        <item>@raw/vi_021</item>
+        <item>@raw/vi_087</item>
+    </array>
+
+    <array name="sound_child_name_array_021">
+        <item>@raw/vi_128</item>
+        <item>@raw/vi_088</item>
+        <item>@raw/vi_129</item>
+    </array>
+
+    <array name="sound_child_name_array_022">
+        <item>@raw/vi_089</item>
+        <item>@raw/vi_023</item>
+        <item>@raw/vi_056</item>
+    </array>
+
+    <array name="sound_child_name_array_023">
+        <item>@raw/vi_024</item>
+        <item>@raw/vi_057</item>
+        <item>@raw/vi_090</item>
+    </array>
+
+    <array name="sound_child_name_array_024">
+        <item>@raw/vi_091</item>
+        <item>@raw/vi_025</item>
+        <item>@raw/vi_058</item>
+    </array>
+
+    <array name="sound_child_name_array_025">
+        <item>@raw/vi_092</item>
+        <item>@raw/vi_026</item>
+        <item>@raw/vi_059</item>
+    </array>
+
+    <array name="sound_child_name_array_026">
+        <item>@raw/vi_130</item>
+        <item>@raw/vi_060</item>
+        <item>@raw/vi_027</item>
+    </array>
+
+    <array name="sound_child_name_array_027">
+        <item>@raw/vi_094</item>
+        <item>@raw/vi_028</item>
+        <item>@raw/vi_103</item>
+        <item>@raw/vi_061</item>
+    </array>
+
+    <array name="sound_child_name_array_028">
+        <item>@raw/vi_029</item>
+        <item>@raw/vi_095</item>
+        <item>@raw/vi_062</item>
+    </array>
+
+    <array name="sound_child_name_array_029">
+        <item>@raw/vi_096</item>
+        <item>@raw/vi_030</item>
+        <item>@raw/vi_063</item>
+    </array>
+
+    <array name="sound_child_name_array_030">
+        <item>@raw/vno_letter</item>
+    </array>
+
+    <array name="sound_child_name_array_031">
+        <item>@raw/vi_065</item>
+        <item>@raw/vi_032</item>
+    </array>
+
+    <array name="sound_child_name_array_032">
+        <item>@raw/vi_033</item>
+        <item>@raw/vi_066</item>
+        <item>@raw/vi_099</item>
+    </array>
+
+
+    <!-- ############################################################### -->
+
+    <array name="game_child_raw_ok_array">
+        <item>@raw/vok_001</item>
+        <item>@raw/vok_002</item>
+        <item>@raw/vok_003</item>
+    </array>
+
+    <!-- ############################################################### -->
+
+    <array name="game_child_raw_no_array">
+        <item>@raw/vno_001</item>
+        <item>@raw/vno_002</item>
+    </array>
+
+</resources>
+

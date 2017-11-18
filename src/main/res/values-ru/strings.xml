@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Азбука</string>
+    <string name="desc">Description</string>
+    <string name="version">версия: %1$s</string>
+    <string name="clear">Очистить</string>
+
+    <!-- Dialog -->
+    <string name="dialog_exit_msg">Вы хотите выйти?</string>
+    <string name="dialog_exit">Выйти</string>
+    <string name="dialog_exit_title">Выход</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_null_row">Нет записей</string>
+
+    <string name="about">
+        \n\nАкварельная азбука поможет вашему малышу легко выучить буквы российского, украинского и английского алфавита.
+        \n\nВ этой программе нет рекламы, чтобы не отвлекать малыша от обучения.
+        \n\nС идеями, и первым тестированием мне помогал мой сын, сначала Азбука писалась для него.
+        \n\nБрезицкий Александр создал для Азбуки более ста иллюстраций на бумаге, акварельными красками.
+        \n\nОзвучка записана на студии звукозаписи \"AURAMUSIC\" город Каменец-Подольский.</string>
+
+    <string name="copyright">
+        \n
+        \n© Павел Цисар.
+        \nabetka.tsisar@gmail.com</string>
+
+    <!-- Preference -->
+    <!-- General -->
+    <string name="pref_title_general">Основные</string>
+
+    <!-- Title general -->
+    <string name="pref_title_orientation">Ориентация</string>
+    <string name="pref_title_language">Язык</string>
+    <string name="pref_title_hint">Подсказки</string>
+    <string name="pref_title_buttons">Кнопки</string>
+
+    <!-- Summary general -->
+    <string name="pref_summary_on_hint">использовать в игре</string>
+    <string name="pref_summary_off_hint">не использовать в игре</string>
+    <string name="pref_summary_on_buttons">использовать для перелистывания</string>
+    <string name="pref_summary_off_buttons">не использовать для перелистывания</string>
+
+    <!-- Sound -->
+    <string name="pref_title_sound">Звук</string>
+
+    <!-- Title sound -->
+    <string name="pref_title_sound_state">Звук</string>
+    <string name="pref_title_sound_voice">Голос</string>
+    <string name="pref_title_sound_speak">Озвучивать</string>
+
+    <!-- Summary sound -->
+    <string name="pref_summary_on_sound_state">включен</string>
+    <string name="pref_summary_off_sound_state">выключен</string>
+
+    <!-- Info -->
+    <string name="pref_title_info">Информация</string>
+
+    <!-- Title info -->
+    <string name="pref_title_info_statistics">Лучший результат</string>
+    <string name="pref_title_info_statistics_sorting">Сортировка</string>
+    <string name="pref_title_info_statistics_number">Количество записей</string>
+    <string name="pref_title_info_about">О программе</string>
+
+    <!-- Summary info -->
+    <string name="pref_summary_info_best_result_answers">ответов %1$d, звездочек %2$d, %3$s</string>
+    <string name="pref_summary_info_best_result_stars">звездочек %2$d, ответов %1$d, %3$s</string>
+    <string name="pref_summary_info_best_result_date">%3$s, ответов %1$d, звездочек %2$d</string>
+
+    <string name="pause">Пауза</string>
+    <string name="level_completed">Уровень пройден!</string>
+
+    <string name="coffee">Угостить</string>
+    <string name="are_you_like">Вам понравилось приложение?\nУгостите разработчика кофе:</string>
+
+    <string name="num_records">что сохраняются %s</string>
+    <string name="pause_message">Тапни чтобы продолжить</string>
+    <string name="level_completed_message">Тапни чтобы сиграть еще раз</string>
+    <string name="dialog_restart_msg">Чтобы применить эти настройки, необходимо перезапустить приложение.</string>
+    <string name="dialog_restart">Перезапустить</string>
+    <string name="dialog_restart_title">Перезапустить</string>
+</resources>

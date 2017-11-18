@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="@string/pref_title_general" >
+
+        <android.support.v7.preference.ListPreference
+            android:defaultValue="-1"
+            android:entries="@array/pref_orientation_entries"
+            android:entryValues="@array/pref_orientation_entry_values"
+            android:key="general_orientation"
+            android:title="@string/pref_title_orientation"
+            android:summary="%s"
+            android:icon="@mipmap/ic_orientation"/>
+
+        <android.support.v7.preference.ListPreference
+            android:defaultValue="default"
+            android:entries="@array/pref_language_entries"
+            android:entryValues="@array/pref_language_entry_values"
+            android:key="general_language"
+            android:title="@string/pref_title_language"
+            android:summary="%s"
+            android:icon="@mipmap/ic_flag"/>
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="general_hint"
+            android:summaryOn="@string/pref_summary_on_hint"
+            android:summaryOff="@string/pref_summary_off_hint"
+            android:title="@string/pref_title_hint"
+            android:icon="@mipmap/ic_hint"/>
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="general_buttons"
+            android:summaryOn="@string/pref_summary_on_buttons"
+            android:summaryOff="@string/pref_summary_off_buttons"
+            android:title="@string/pref_title_buttons"
+            android:icon="@mipmap/ic_button"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="@string/pref_title_sound" >
+
+
+        <ua.tsisar.abetka.preference.SwitchPreferenceExt
+            android:defaultValue="true"
+            android:key="sound_state"
+            android:summaryOn="@string/pref_summary_on_sound_state"
+            android:summaryOff="@string/pref_summary_off_sound_state"
+            android:title="@string/pref_title_sound_state"
+            android:icon="@mipmap/ic_sound"/>
+
+        <android.support.v7.preference.ListPreference
+            android:defaultValue="default"
+            android:dependency="sound_state"
+            android:entries="@array/pref_sound_voice_entries"
+            android:entryValues="@array/pref_sound_voice_entry_values"
+            android:key="sound_voice"
+            android:title="@string/pref_title_sound_voice"
+            android:summary="%s"
+            android:icon="@drawable/ic_voice"/>
+
+        <android.support.v14.preference.MultiSelectListPreference
+            android:defaultValue="@array/pref_sound_speak_entry_values"
+            android:dependency="sound_state"
+            android:entries="@array/pref_sound_speak_entries"
+            android:entryValues="@array/pref_sound_speak_entry_values"
+            android:key="sound_speak"
+            android:title="@string/pref_title_sound_speak"
+            android:icon="@drawable/ic_speak"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="@string/pref_title_info" >
+        <android.support.v7.preference.Preference
+            android:title="@string/pref_title_info_statistics"
+            android:key="statistics_best_result"
+            android:icon="@mipmap/ic_statistics">
+        </android.support.v7.preference.Preference>
+
+        <android.support.v7.preference.ListPreference
+            android:defaultValue="answer"
+            android:entries="@array/pref_statistics_sorting_entries"
+            android:entryValues="@array/pref_statistics_sorting_entry_values"
+            android:key="statistics_sorting"
+            android:title="@string/pref_title_info_statistics_sorting"
+            android:summary="%s"
+            android:icon="@mipmap/ic_sort"/>
+
+        <android.support.v7.preference.ListPreference
+            android:defaultValue="10"
+            android:entries="@array/pref_statistics_number_entries"
+            android:entryValues="@array/pref_statistics_number_entry_values"
+            android:key="statistics_number"
+            android:title="@string/pref_title_info_statistics_number"
+            android:summary="@string/num_records"
+            android:icon="@mipmap/ic_num"/>
+
+        <android.support.v7.preference.Preference
+            android:title="@string/pref_title_info_about"
+            android:key="info_about"
+            android:icon="@mipmap/ic_info">
+        </android.support.v7.preference.Preference>
+    </android.support.v7.preference.PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>

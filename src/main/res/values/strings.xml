@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Абетка</string>
+    <string name="desc">Description</string>
+    <string name="version">версія: %1$s</string>
+    <string name="clear">Очистити</string>
+
+    <!-- Dialog -->
+    <string name="dialog_exit_msg">Ви бажаєте вийти?</string>
+    <string name="dialog_exit">Вийти</string>
+    <string name="dialog_exit_title">Вихід</string>
+    <string name="dialog_cancel">Скасувати</string>
+    <string name="dialog_null_row">Немає записів</string>
+
+    <string name="about">
+        \n\nАкварельна Абетка, допоможе вашій малечі легко вивчити літери українського, російського та англійського алфавіту.
+        \n\nВ цій програмі немає реклами, аби не відволікати вашу малечу від навчання.
+        \n\nЗ ідеями, та першим тестуванням мені допомагав мій син, спочатку Абетка писалася для нього.
+        \n\nБрезіцький Олександр створив для Абетки понад сто іллюстрацій на папері, акварельними фарбами.
+        \n\nОзвучку записано на студії звукозапису \"AURAMUSIC\" місто Кам\'янець-Подільський.
+        \n\nВ версії 1.2.2 додано озвучку голосом мого сина, на момент запису якої йому було 4 рочки.</string>
+
+    <string name="copyright">
+        \n
+        \n© Павло Цісар.
+        \nabetka.tsisar@gmail.com</string>
+
+    <!-- Preference -->
+    <!-- General -->
+    <string name="pref_title_general">Загальні</string>
+
+    <!-- Title general -->
+    <string name="pref_title_orientation">Орієнтація</string>
+    <string name="pref_title_language">Мова</string>
+    <string name="pref_title_hint">Підказки</string>
+    <string name="pref_title_buttons">Кнопки</string>
+
+    <!-- Summary general -->
+    <string name="pref_summary_on_hint">використовувати у грі</string>
+    <string name="pref_summary_off_hint">не використовувати у грі</string>
+    <string name="pref_summary_on_buttons">використовувати для перелистування</string>
+    <string name="pref_summary_off_buttons">не використовувати для перелистування</string>
+
+    <!-- Sound -->
+    <string name="pref_title_sound">Звук</string>
+
+    <!-- Title sound -->
+    <string name="pref_title_sound_state">Звук</string>
+    <string name="pref_title_sound_voice">Голос</string>
+    <string name="pref_title_sound_speak">Озвучувати</string>
+
+    <!-- Summary sound -->
+    <string name="pref_summary_on_sound_state">увімкнено</string>
+    <string name="pref_summary_off_sound_state">вимкнуто</string>
+
+    <!-- Info -->
+    <string name="pref_title_info">Інформація</string>
+
+    <!-- Title info -->
+    <string name="pref_title_info_statistics">Кращий результат</string>
+    <string name="pref_title_info_statistics_sorting">Сортуватння</string>
+    <string name="pref_title_info_statistics_number">Кількість записів</string>
+    <string name="pref_title_info_about">Про програму</string>
+
+    <!-- Summary info -->
+    <string name="pref_summary_info_best_result_answers">відповідей %1$d, зірочок %2$d, %3$s</string>
+    <string name="pref_summary_info_best_result_stars">зірочок %2$d, відповідей %1$d, %3$s</string>
+    <string name="pref_summary_info_best_result_date">%3$s, відповідей %1$d, зірочок %2$d</string>
+
+    <string name="pause">Пауза</string>
+    <string name="pause_message">Тапни щоб продовжити</string>
+    <string name="level_completed">Рівень завершено!</string>
+    <string name="level_completed_message">Ттапни щоб зіграти ще раз</string>
+
+    <string name="coffee">Пригостити</string>
+    <string name="are_you_like">Вам сподобався додаток?\nПригостіть розробника кавою:</string>
+
+    <string name="num_records">що зберігаються %s</string>
+
+    <string name="dialog_restart_msg">Щоб застосувати ці налаштування, потрібно перезапустити програму.</string>
+    <string name="dialog_restart">Перезапустити</string>
+    <string name="dialog_restart_title">Перезапустити</string>
+
+</resources>

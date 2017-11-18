@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ua.tsisar.abetka.view.StrokeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_label"
+        android:textColor="@color/colorBlack"
+        android:textSize="32sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:strokeWidth="2sp"
+        app:strokeColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/game_label">
+
+        <ImageView
+            app:srcCompat="@mipmap/ab_001"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/game_illustration"
+            android:contentDescription="@string/desc"
+            android:onClick="onClickShowHint"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <GridView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:id="@+id/game_grid_view"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"
+            android:numColumns="2"/>
+    </LinearLayout>
+</RelativeLayout>
