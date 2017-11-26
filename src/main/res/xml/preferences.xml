@@ -55,16 +55,6 @@
             android:title="@string/pref_title_sound_state"
             android:icon="@mipmap/ic_sound"/>
 
-        <android.support.v7.preference.ListPreference
-            android:defaultValue="default"
-            android:dependency="sound_state"
-            android:entries="@array/pref_sound_voice_entries"
-            android:entryValues="@array/pref_sound_voice_entry_values"
-            android:key="sound_voice"
-            android:title="@string/pref_title_sound_voice"
-            android:summary="%s"
-            android:icon="@drawable/ic_voice"/>
-
         <android.support.v14.preference.MultiSelectListPreference
             android:defaultValue="@array/pref_sound_speak_entry_values"
             android:dependency="sound_state"
