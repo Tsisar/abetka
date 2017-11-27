@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Random;
+
 import ua.tsisar.abetka.AlphabetItem;
 import ua.tsisar.abetka.R;
 
@@ -62,6 +64,8 @@ public class PageFragment extends Fragment {
         AlphabetItem alphabetItem = new AlphabetItem(getActivity().getResources(), position, offset);
         View view = inflater.inflate(R.layout.fragment_main, container, false);
 
+//        setBackground(view);
+
         // Буква
         TextView letter = view.findViewById(R.id.letter_text_view);
         String letterString = alphabetItem.getLetter() + alphabetItem.getLetterSmall();
@@ -85,4 +89,10 @@ public class PageFragment extends Fragment {
 
         return view;
     }
+
+//    private void setBackground(View view){
+//        view.setBackground(getActivity().getResources().getDrawable(getActivity().getResources()
+//                .obtainTypedArray(R.array.abtBackground).getResourceId(
+//                        new Random().nextInt(7), R.drawable.background_window_blue)));
+//    }
 }

@@ -45,7 +45,7 @@ public class SoundHelper {
                     sounds.add(getLetter(position));
                 }
 
-                if((position != 30 && noise) || (!letter && !name)) {
+                if((position % count != 30 && noise) || (!letter && !name)) {
                     if(letter) {
                         sounds.add(child ? R.raw.vnoise : R.raw.noise);
                     }
@@ -63,7 +63,7 @@ public class SoundHelper {
                         sounds.add(R.raw.letter);
                     sounds.add(getLetter(position));
                 }
-                if((position != 27 && position != 28 && noise) || (!letter && !name)) {
+                if((position % count != 27 && position % count != 28 && noise) || (!letter && !name)) {
                     if(letter)
                         sounds.add(R.raw.noise);
                     sounds.add(getNoise(position));
