@@ -4,9 +4,7 @@ android {
     signingConfigs {
         config {
             keyAlias 'Tsisar'
-            keyPassword 'fkg7h4f3v6'
             storeFile file('/home/pavel/android_key/my_key.jks')
-            storePassword 'fkg7h4f3v6'
         }
     }
     compileSdkVersion 26
