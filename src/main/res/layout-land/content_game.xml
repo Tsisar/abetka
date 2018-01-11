@@ -25,17 +25,37 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/game_label">
 
-        <ImageView
-            app:srcCompat="@mipmap/ab_001"
+        <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:id="@+id/game_illustration"
-            android:contentDescription="@string/desc"
-            android:onClick="onClickShowHint"
-            android:adjustViewBounds="true"
+            android:layout_marginRight="16dp"
             android:layout_gravity="center"
-            android:layout_weight="1" />
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/game_illustration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/desc"
+                app:srcCompat="@mipmap/ab_001" />
+
+            <ImageView
+                android:id="@+id/game_hint_button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/desc"
+                android:onClick="onClickShowHint"
+                app:srcCompat="@mipmap/ic_hint_button" />
+
+        </RelativeLayout>
 
         <GridView
             android:layout_width="0dp"

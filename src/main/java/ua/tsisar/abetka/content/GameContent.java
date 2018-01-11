@@ -23,8 +23,6 @@ public class GameContent implements AdapterView.OnItemClickListener{
     private GridView gridView;
     private GameContentListener listener;
 
-    private boolean firstHint = true;
-
     public interface GameContentListener{
         void onItemClick(int position);
     }
@@ -51,25 +49,13 @@ public class GameContent implements AdapterView.OnItemClickListener{
     }
 
     public void drawCurrentLetter(AlphabetItem alphabetItem, GameAdapter gameAdapter){
-        firstHint = true;
         String name = ".." + alphabetItem.getName();
         this.label.setText(name);
         illustration.setImageResource(alphabetItem.getIllustration());
         gridView.setAdapter(gameAdapter);
     }
 
-    public void showHint(int position){
-        if(firstHint){
-            firstHint = false;
-            firstHint(position);
-        }else {
-            View view = gridView.getChildAt(position);
-            view.startAnimation(AnimationUtils.loadAnimation(activity, R.anim.anim_hint));
-            view.setBackground(activity.getResources().getDrawable(R.drawable.background_red_stroke));
-        }
-    }
-
-    private void firstHint(int position){
+    public void secondHint(int position){
         int p1 = new Random().nextInt(4);
 
         while (p1 == position){
@@ -83,6 +69,12 @@ public class GameContent implements AdapterView.OnItemClickListener{
         }
         gridView.getChildAt(p1).setVisibility(View.INVISIBLE);
         gridView.getChildAt(p2).setVisibility(View.INVISIBLE);
+    }
+
+    public void thirdHint(int position) {
+        View view = gridView.getChildAt(position);
+        view.startAnimation(AnimationUtils.loadAnimation(activity, R.anim.anim_hint));
+        view.setBackground(activity.getResources().getDrawable(R.drawable.background_red_stroke));
     }
 
     @Override

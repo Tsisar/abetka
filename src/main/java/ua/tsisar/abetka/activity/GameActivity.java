@@ -27,6 +27,10 @@ import ua.tsisar.abetka.content.TopBarContent;
 
 public class GameActivity extends AppCompatActivity implements GameListener, GameContentListener{
 
+    private  final static int FIRST_HINT = 1;
+    private  final static int SECOND_HINT = 2;
+    private  final static int THIRD_HINT = 3;
+
     private Game game;
 
     private ProgressBar progressBar;
@@ -43,8 +47,11 @@ public class GameActivity extends AppCompatActivity implements GameListener, Gam
     private SoundManager soundManager;
 
     private int currentLetter;
+    private int currentOffset;
     private int hintPosition;
     private boolean isShowHint;
+
+    private int hintState;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +72,9 @@ public class GameActivity extends AppCompatActivity implements GameListener, Gam
         progressBar = findViewById(R.id.game_ProgressBar);
         progressBar.setMax(getResources().obtainTypedArray(R.array.letters_array).length());
 
+        if(!isShowHint) {
+            findViewById(R.id.game_hint_button).setVisibility(View.GONE);
+        }
         soundHelper = new SoundHelper(this);
         soundManager = new SoundManager(this);
 
@@ -136,7 +146,9 @@ public class GameActivity extends AppCompatActivity implements GameListener, Gam
     @Override
     public void onDrawCurrentLetter(int letter, int offset, ArrayList<Integer> list) {
         alphabetItem = new AlphabetItem(getResources(), letter, offset);
+        hintState = FIRST_HINT;
         currentLetter = letter;
+        currentOffset = offset;
         hintPosition = getHintPosition(list);
 
         gameContent.drawCurrentLetter(alphabetItem,
@@ -235,8 +247,19 @@ public class GameActivity extends AppCompatActivity implements GameListener, Gam
 
     public void onClickShowHint(View view){
         if(isShowHint) {
-            gameContent.showHint(hintPosition);
-            soundManager.play(soundHelper.getNoise(currentLetter));
+            switch (hintState){
+                case SECOND_HINT:
+                    gameContent.secondHint(hintPosition);
+                    break;
+                case THIRD_HINT:
+                    gameContent.thirdHint(hintPosition);
+                    break;
+            }
+
+            if(hintState < THIRD_HINT) {
+                hintState++;
+            }
+            soundManager.play(soundHelper.getName(currentLetter, currentOffset));
             view.startAnimation(AnimationUtils.loadAnimation(this, R.anim.anim_on_click));
         }
     }
