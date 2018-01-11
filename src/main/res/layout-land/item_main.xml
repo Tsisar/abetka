@@ -18,7 +18,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickIllustration">
 
         <ua.tsisar.abetka.view.StrokeTextView
             android:layout_width="wrap_content"
