@@ -4,7 +4,7 @@ android {
     signingConfigs {
         config {
             keyAlias 'Tsisar'
-            storeFile file('/home/pavel/android_key/my_key.jks')
+            storeFile file('D:/My files/MyAndroidKey/my_key.jks')
         }
     }
     compileSdkVersion 26
@@ -13,8 +13,8 @@ android {
         applicationId "ua.tsisar.abetka"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 16
-        versionName '1.3.2'
+        versionCode 17
+        versionName '1.3.3'
         signingConfig signingConfigs.config
     }
     buildTypes {

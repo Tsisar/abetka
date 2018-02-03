@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background_blue_stroke">
 
     <ua.tsisar.abetka.view.StrokeTextView
+        android:id="@+id/game_gv_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/game_gv_textView"
-        android:textSize="48sp"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:gravity="center_vertical|center_horizontal"
         android:textColor="#000000"
-        app:strokeWidth="4sp"
-        app:strokeColor="@color/colorWhite"/>
+        android:textSize="48sp"
+        app:strokeColor="@color/colorWhite"
+        app:strokeWidth="4sp" />
 
 </RelativeLayout>
 

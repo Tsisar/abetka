@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/illustration_image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/illustration_image_view"
-        android:contentDescription="@string/desc"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_margin="16dp"/>
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/desc" />
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
 
         <ua.tsisar.abetka.view.StrokeTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/first_letter_text_view"
-            android:textSize="64sp"
-            app:strokeWidth="4sp"
-            app:strokeColor="@color/colorWhite"/>
-
-        <ua.tsisar.abetka.view.StrokeTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="64sp"
+            app:strokeColor="@color/colorWhite"
+            app:strokeWidth="4sp" />
+
+        <ua.tsisar.abetka.view.StrokeTextView
             android:id="@+id/name_text_view"
-            android:textSize="32sp"
-            android:textIsSelectable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:textColor="#000000"
-            app:strokeWidth="4sp"
-            app:strokeColor="@color/colorWhite"/>
+            android:textIsSelectable="false"
+            android:textSize="32sp"
+            app:strokeColor="@color/colorWhite"
+            app:strokeWidth="4sp" />
     </LinearLayout>
 </RelativeLayout>

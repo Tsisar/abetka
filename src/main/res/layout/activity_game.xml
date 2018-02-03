@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_window_blue"
     android:paddingBottom="@dimen/activity_vertical_padding"
     android:paddingLeft="@dimen/activity_horizontal_padding"
     android:paddingRight="@dimen/activity_horizontal_padding"
     android:paddingTop="@dimen/activity_vertical_padding"
-    android:background="@drawable/background_window_blue"
     tools:context="ua.tsisar.abetka.activity.CoffeeActivity">
 
     <ProgressBar
@@ -17,13 +16,13 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="10dp"
-        android:layout_margin="8dp"
-        android:progressDrawable="@drawable/progress_bar_orange"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:progressDrawable="@drawable/progress_bar_orange" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -32,43 +31,43 @@
         android:layout_centerHorizontal="true">
 
         <FrameLayout
+            android:id="@+id/frameLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:id="@+id/frameLayout">
+            android:layout_marginTop="8dp">
 
             <ImageView
                 android:id="@+id/game_time_ImageView"
-                app:srcCompat="@mipmap/game_clock"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:layout_gravity="start|top"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:contentDescription="@string/desc"
-                android:layout_gravity="start|top"/>
+                app:srcCompat="@mipmap/game_clock" />
 
             <ImageView
                 android:id="@+id/game_time_progress_bar"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:layout_gravity="start|top"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:contentDescription="@string/desc"
-                android:layout_gravity="start|top"/>
+                android:contentDescription="@string/desc" />
 
             <ua.tsisar.abetka.view.StrokeTextView
-                android:text="10"
+                android:id="@+id/game_time_label"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:layout_gravity="start|top"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:id="@+id/game_time_label"
-                android:textSize="24sp"
-                android:textColor="@color/colorWhite"
-                app:strokeWidth="2sp"
-                app:strokeColor="@color/colorStar"
                 android:gravity="center"
-                android:layout_gravity="start|top" />
+                android:text="10"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp"
+                app:strokeColor="@color/colorStar"
+                app:strokeWidth="2sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -82,69 +81,69 @@
 
                 <ImageView
                     android:id="@+id/game_star_3_img"
-                    app:srcCompat="@mipmap/game_star"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
                     android:contentDescription="@string/desc"
-                    android:adjustViewBounds="true"/>
+                    app:srcCompat="@mipmap/game_star" />
 
                 <ImageView
                     android:id="@+id/game_star_2_img"
-                    app:srcCompat="@mipmap/game_star"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
                     android:contentDescription="@string/desc"
-                    android:adjustViewBounds="true"/>
+                    app:srcCompat="@mipmap/game_star" />
 
                 <ImageView
                     android:id="@+id/game_star_1_img"
-                    app:srcCompat="@mipmap/game_star"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
                     android:contentDescription="@string/desc"
-                    android:adjustViewBounds="true"/>
+                    app:srcCompat="@mipmap/game_star" />
 
             </LinearLayout>
 
         </FrameLayout>
 
         <include
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             layout="@layout/content_game"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_below="@+id/frameLayout"
             android:layout_centerHorizontal="true" />
 
         <include
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:visibility="invisible"
             layout="@layout/content_pause"
-            android:layout_below="@+id/frameLayout"
-            android:layout_centerHorizontal="true" />
-
-        <include
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="invisible"
+            android:layout_below="@+id/frameLayout"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+
+        <include
             layout="@layout/content_correct_answer"
-            android:layout_below="@+id/frameLayout"
-            android:layout_centerHorizontal="true" />
-
-        <include
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="invisible"
+            android:layout_below="@+id/frameLayout"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+
+        <include
             layout="@layout/content_incorrect_answer"
-            android:layout_below="@+id/frameLayout"
-            android:layout_centerHorizontal="true" />
-
-        <include
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="invisible"
-            layout="@layout/content_finish"
             android:layout_below="@+id/frameLayout"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+
+        <include
+            layout="@layout/content_finish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/frameLayout"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
     </RelativeLayout>
 </RelativeLayout>

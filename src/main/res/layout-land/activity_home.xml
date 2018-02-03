@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_window_blue"
     android:paddingBottom="@dimen/activity_vertical_padding"
     android:paddingLeft="@dimen/activity_horizontal_padding"
     android:paddingRight="@dimen/activity_horizontal_padding"
     android:paddingTop="@dimen/activity_vertical_padding"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background_window_blue"
     tools:context="ua.tsisar.abetka.activity.HomeActivity">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
         app:srcCompat="@mipmap/ic_flag" />
 
     <ImageButton
         android:id="@+id/image_button_coffee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorTransparent"
-        android:scaleType="fitCenter"
-        app:srcCompat="@mipmap/ic_coffee"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="startActivity"/>
+        android:background="@color/colorTransparent"
+        android:onClick="startActivity"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/ic_coffee" />
 
     <ImageButton
         android:id="@+id/image_button_settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_margin="8dp"
         android:background="@color/colorTransparent"
+        android:onClick="startActivity"
         android:scaleType="fitCenter"
-        app:srcCompat="@mipmap/ic_settings"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="startActivity"/>
+        app:srcCompat="@mipmap/ic_settings" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/image_button_coffee"
         android:layout_centerHorizontal="true">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
+            android:layout_margin="8dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -65,30 +65,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.33"
-                app:srcCompat="@mipmap/ic_main"
-                android:scaleType="fitCenter"
                 android:background="@color/colorTransparent"
-                android:onClick="startActivity"/>
+                android:onClick="startActivity"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/ic_main" />
 
             <ImageButton
                 android:id="@+id/image_button_grid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.33"
-                app:srcCompat="@mipmap/ic_grid"
-                android:scaleType="fitCenter"
                 android:background="@color/colorTransparent"
-                android:onClick="startActivity"/>
+                android:onClick="startActivity"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/ic_grid" />
 
             <ImageButton
                 android:id="@+id/image_button_game"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.33"
-                app:srcCompat="@mipmap/ic_game"
-                android:scaleType="fitCenter"
                 android:background="@color/colorTransparent"
-                android:onClick="startActivity"/>
+                android:onClick="startActivity"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/ic_game" />
 
         </LinearLayout>
     </RelativeLayout>

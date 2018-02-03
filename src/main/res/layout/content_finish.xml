@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/content_finish"
     android:layout_width="match_parent"
@@ -8,92 +7,92 @@
     android:onClick="onClickReturn">
 
     <Button
-        android:text="@string/dialog_exit"
+        android:id="@+id/finish_exit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickExit"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="8dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/finish_exit_button" />
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="onClickExit"
+        android:text="@string/dialog_exit" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:layout_above="@+id/finish_exit_button"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:gravity="center">
 
         <ImageView
+            android:id="@+id/finish_ok_imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/game_ok"
-            android:id="@+id/finish_ok_imageView"
+            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
+            app:srcCompat="@mipmap/game_ok" />
 
         <ua.tsisar.abetka.view.StrokeTextView
-            android:text="0"
+            android:id="@+id/finish_answer_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/finish_answer_label"
-            android:textColor="@color/colorWhite"
-            android:textSize="80sp"
-            app:strokeWidth="5sp"
-            app:strokeColor="@color/colorGreen"
             android:layout_alignBottom="@+id/finish_ok_imageView"
             android:layout_alignLeft="@+id/finish_ok_imageView"
-            android:layout_alignStart="@+id/finish_ok_imageView" />
+            android:layout_alignStart="@+id/finish_ok_imageView"
+            android:text="0"
+            android:textColor="@color/colorWhite"
+            android:textSize="80sp"
+            app:strokeColor="@color/colorGreen"
+            app:strokeWidth="5sp" />
 
         <RelativeLayout
+            android:id="@+id/relativeLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_above="@+id/finish_answer_label"
             android:layout_centerHorizontal="true"
-            android:id="@+id/relativeLayout">
+            android:gravity="center">
 
             <ImageView
+                android:id="@+id/finish_star1_imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/game_star_1"
-                android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
-                android:id="@+id/finish_star1_imageView" />
+                android:layout_centerVertical="true"
+                app:srcCompat="@mipmap/game_star_1" />
 
             <ua.tsisar.abetka.view.StrokeTextView
-                android:text="0"
+                android:id="@+id/finish_star_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/finish_star_label"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="0"
                 android:textColor="@color/colorWhite"
                 android:textSize="48sp"
-                app:strokeWidth="5sp"
                 app:strokeColor="@color/colorBlackStar"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"/>
+                app:strokeWidth="5sp" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/game_star_1"
                 android:id="@+id/finish_star2_imageView"
-                android:layout_below="@+id/finish_star1_imageView"
-                android:layout_toRightOf="@+id/finish_star1_imageView"
-                android:layout_toEndOf="@+id/finish_star1_imageView" />
-
-            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/game_star_1"
+                android:layout_below="@+id/finish_star1_imageView"
+                android:layout_toEndOf="@+id/finish_star1_imageView"
+                android:layout_toRightOf="@+id/finish_star1_imageView"
+                app:srcCompat="@mipmap/game_star_1" />
+
+            <ImageView
                 android:id="@+id/finish_star3_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/finish_star1_imageView"
                 android:layout_toLeftOf="@+id/finish_star1_imageView"
-                android:layout_toStartOf="@+id/finish_star1_imageView" />
+                android:layout_toStartOf="@+id/finish_star1_imageView"
+                app:srcCompat="@mipmap/game_star_1" />
 
         </RelativeLayout>
 

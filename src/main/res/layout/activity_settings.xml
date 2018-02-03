@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_window_blue"
     android:paddingBottom="@dimen/activity_vertical_padding"
     android:paddingLeft="@dimen/activity_horizontal_padding"
     android:paddingRight="@dimen/activity_horizontal_padding"
-    android:paddingTop="@dimen/activity_vertical_padding"
-    android:background="@drawable/background_window_blue">
+    android:paddingTop="@dimen/activity_vertical_padding">
 
     <fragment
         android:name="ua.tsisar.abetka.fragment.PreferenceFragment"
-        android:tag="ua.tsisar.abetka.fragment.SettingsFragment"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:tag="ua.tsisar.abetka.fragment.SettingsFragment" />
 
 </FrameLayout>
