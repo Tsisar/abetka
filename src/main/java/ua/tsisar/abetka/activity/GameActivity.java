@@ -246,6 +246,10 @@ public class GameActivity extends AppCompatActivity implements GameListener, Gam
     }
 
     public void onClickShowHint(View view){
+        if(hintState == FIRST_HINT && soundManager.isMute()){
+            hintState++;
+        }
+
         if(isShowHint) {
             switch (hintState){
                 case SECOND_HINT:

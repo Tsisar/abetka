@@ -16,6 +16,8 @@ import java.util.ArrayList;
 
 import ua.tsisar.abetka.preference.LoadPreference;
 
+import static android.content.Context.AUDIO_SERVICE;
+
 public class SoundManager implements MediaPlayer.OnCompletionListener {
 
     private Activity activity;
@@ -25,7 +27,6 @@ public class SoundManager implements MediaPlayer.OnCompletionListener {
 
     public SoundManager(Activity activity){
         this.activity = activity;
-        activity.setVolumeControlStream(AudioManager.STREAM_MUSIC);
         mediaPlayer = getMediaPlayer(activity);
         mediaPlayer.setOnCompletionListener(this);
         sounds = new ArrayList<>();
@@ -91,8 +92,16 @@ public class SoundManager implements MediaPlayer.OnCompletionListener {
                 mediaPlayer.setDataSource(assetFileDescriptor.getFileDescriptor(),
                         assetFileDescriptor.getStartOffset(), assetFileDescriptor.getLength());
                 assetFileDescriptor.close();
-                mediaPlayer.prepare();
-                mediaPlayer.start();
+                //mediaPlayer.prepare();
+                //mediaPlayer.start();
+
+                mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+                    public void onPrepared(MediaPlayer mp) {
+                        mp.start();
+                    }
+                });
+                mediaPlayer.prepareAsync();
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -124,5 +133,16 @@ public class SoundManager implements MediaPlayer.OnCompletionListener {
                 e.printStackTrace();
             }
         }
+    }
+
+    public boolean isMute(){
+        return mediaPlayer == null || !soundOn || getVolume() == 0;
+        //return false;
+    }
+
+    private int getVolume(){
+        AudioManager audioManager = (AudioManager) activity.getSystemService(AUDIO_SERVICE);
+        assert audioManager != null;
+        return audioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
     }
 }

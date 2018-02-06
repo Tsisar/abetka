@@ -2,6 +2,7 @@ package ua.tsisar.abetka;
 
 import android.app.Activity;
 import android.app.Application;
+import android.media.AudioManager;
 import android.os.Bundle;
 
 import ua.tsisar.abetka.preference.LoadPreference;
@@ -18,6 +19,8 @@ public class App extends Application {
 
             @Override
             public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
+                activity.setVolumeControlStream(AudioManager.STREAM_MUSIC);
+
                 LoadPreference loadPreference = new LoadPreference(activity);
                 loadPreference.setOrientation();
                 loadPreference.setLanguage();
