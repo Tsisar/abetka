@@ -2,6 +2,7 @@ package ua.tsisar.abetka.sound;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.content.res.TypedArray;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -124,20 +125,33 @@ public class SoundHelper {
     }
 
     public int getLetter(int position){
-        return resources.obtainTypedArray(child ? R.array.sound_child_letter_id_array
-                :R.array.sound_letter_id_array).getResourceId(position % count, 0);
+        try {
+            return resources.obtainTypedArray(child ? R.array.sound_child_letter_id_array
+                    : R.array.sound_letter_id_array).getResourceId(position % count, 0);
+        } catch (ArrayIndexOutOfBoundsException e){
+            return R.raw.silent;
+        }
     }
 
     public int getNoise(int position){
-        return resources.obtainTypedArray(child ? R.array.sound_child_noise_id_array
-                :R.array.sound_noise_id_array).getResourceId(position % count, 0);
+        try {
+            return resources.obtainTypedArray(child ? R.array.sound_child_noise_id_array
+                    : R.array.sound_noise_id_array).getResourceId(position % count, 0);
+        } catch (ArrayIndexOutOfBoundsException e){
+            return R.raw.silent;
+        }
     }
 
-    public int getName(int position, int offset){
-        return resources.obtainTypedArray(resources.obtainTypedArray(child
-                ?R.array.sound_child_name_array:R.array.sound_name_array)
-                .getResourceId(position % count, R.array.sound_name_array_000))
-                .getResourceId(offset, R.raw.i_001);
+    public int getName(int position, int offset) {
+        try {
+            return resources.obtainTypedArray(resources.obtainTypedArray(child
+                    ?R.array.sound_child_name_array:R.array.sound_name_array)
+                    .getResourceId(position % count, R.array.sound_name_array_000))
+                    .getResourceId(offset, R.raw.silent);
+        } catch (ArrayIndexOutOfBoundsException e){
+            return R.raw.silent;
+        }
+
     }
     
 }
