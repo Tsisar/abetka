@@ -14,26 +14,46 @@ public class AlphabetItem {
     }
 
     public String getLetter() {
-        return resources.obtainTypedArray(R.array.letters_array).getString(position);
+        try {
+            return resources.obtainTypedArray(R.array.letters_array).getString(position);
+        } catch (ArrayIndexOutOfBoundsException e){
+            return "";
+        }
     }
 
     public int getColor(){
-        return resources.obtainTypedArray(R.array.letters_color_array)
-                .getColor(position, 0xFF000000);
+        try {
+            return resources.obtainTypedArray(R.array.letters_color_array)
+                    .getColor(position, 0xFF000000);
+        } catch (ArrayIndexOutOfBoundsException e){
+            return 0xFF000000;
+        }
     }
 
     public String getLetterSmall() {
-        return resources.obtainTypedArray(R.array.letters_small_array).getString(position);
+        try {
+            return resources.obtainTypedArray(R.array.letters_small_array).getString(position);
+        } catch (ArrayIndexOutOfBoundsException e){
+            return "";
+        }
     }
 
     public String getName() {
-        return resources.obtainTypedArray(resources.obtainTypedArray(R.array.name_array)
-                .getResourceId(position, R.array.name_array_000)).getString(offset);
+        try {
+            return resources.obtainTypedArray(resources.obtainTypedArray(R.array.name_array)
+                    .getResourceId(position, R.array.name_array_000)).getString(offset);
+        } catch (ArrayIndexOutOfBoundsException e){
+            return "";
+        }
     }
 
     public int getIllustration() {
-        return resources.obtainTypedArray(resources.obtainTypedArray(R.array.illustration_array)
-                .getResourceId(position, R.array.illustration_array_000))
-                .getResourceId(offset, R.mipmap.ab_001);
+        try {
+            return resources.obtainTypedArray(resources.obtainTypedArray(R.array.illustration_array)
+                    .getResourceId(position, R.array.illustration_array_000))
+                    .getResourceId(offset, R.mipmap.ab_001);
+        } catch (ArrayIndexOutOfBoundsException e){
+            return R.mipmap.ab_001;
+        }
     }
 }
