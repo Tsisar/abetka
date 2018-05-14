@@ -37,6 +37,7 @@ public class SoundHelper {
         boolean noise = loadPreference.playNoise();
         boolean name = loadPreference.playName();
 
+        //TODO переробити
         switch (language) {
             case VALUE_LANGUAGE_UK:
                 if(letter) {
@@ -46,11 +47,45 @@ public class SoundHelper {
                     sounds.add(getLetter(position));
                 }
 
-                if((position % count != 30 && noise) || (!letter && !name)) {
-                    if(letter) {
-                        sounds.add(child ? R.raw.vnoise : R.raw.noise);
+                int p = position % count;
+                if((p != 30 && noise) || (!letter && !name)) {
+                    if(letter){
+                        if(p == 7 || p == 12 || p == 29 || p == 31 || p == 32)
+                            sounds.add(child ? R.raw.vnoises : R.raw.noises);
+                        else
+                            sounds.add(child ? R.raw.vnoise : R.raw.noise);
                     }
-                    sounds.add(getNoise(position));
+
+                    switch (p){
+                        case 7:
+                            sounds.add(getNoise(13));
+                            sounds.add(getNoise(6));
+                            break;
+
+                        case 12:
+                            sounds.add(getNoise(13));
+                            sounds.add(getNoise(11));
+                            break;
+
+                        case 29:
+                            sounds.add(getNoise(28));
+                            sounds.add(getNoise(27));
+                            break;
+
+                        case 31:
+                            sounds.add(getNoise(13));
+                            sounds.add(getNoise(23));
+                            break;
+
+                        case 32:
+                            sounds.add(getNoise(13));
+                            sounds.add(getNoise(0));
+                            break;
+
+                        default:
+                             sounds.add(getNoise(position));
+                             break;
+                    }
                 }
 
                 if(name || (!letter && !noise)) {
